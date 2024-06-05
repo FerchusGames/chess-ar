@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="board" size="0.533400 0.533400" />
+    <ImageTarget name="queen" size="0.533400 0.533400" />
+    <ImageTarget name="rook" size="0.533400 0.533400" />
+    <ImageTarget name="bishop" size="0.533400 0.533400" />
+    <ImageTarget name="knight" size="0.533400 0.533400" />
+    <ImageTarget name="pawn" size="0.533400 0.533400" />
+    <ImageTarget name="king" size="0.533400 0.533400" />
+  </Tracking>
+</QCARConfig>
