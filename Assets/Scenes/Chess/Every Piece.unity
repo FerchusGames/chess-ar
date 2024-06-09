@@ -173,12 +173,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1826369607381779699, guid: eef644b33b6f7aa41ad7a03c0c6a3657, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826369607381779699, guid: eef644b33b6f7aa41ad7a03c0c6a3657, type: 3}
+      propertyPath: StatusFilter
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1854142860761977034, guid: eef644b33b6f7aa41ad7a03c0c6a3657, type: 3}
       propertyPath: m_Name
       value: AR_Pawn
       objectReference: {fileID: 0}
+    - target: {fileID: 4865992385666117617, guid: eef644b33b6f7aa41ad7a03c0c6a3657, type: 3}
+      propertyPath: mPreview
+      value: 
+      objectReference: {fileID: 913576274}
     - target: {fileID: 4909754876097402521, guid: eef644b33b6f7aa41ad7a03c0c6a3657, type: 3}
       propertyPath: mHiddenRoot
       value: 
@@ -199,6 +207,21 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1854142860761977034, guid: eef644b33b6f7aa41ad7a03c0c6a3657, type: 3}
       insertIndex: -1
       addedObject: {fileID: 913576259}
+    - targetCorrespondingSourceObject: {fileID: 1854142860761977034, guid: eef644b33b6f7aa41ad7a03c0c6a3657, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 913576262}
+    - targetCorrespondingSourceObject: {fileID: 1854142860761977034, guid: eef644b33b6f7aa41ad7a03c0c6a3657, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 913576265}
+    - targetCorrespondingSourceObject: {fileID: 1854142860761977034, guid: eef644b33b6f7aa41ad7a03c0c6a3657, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 913576268}
+    - targetCorrespondingSourceObject: {fileID: 1854142860761977034, guid: eef644b33b6f7aa41ad7a03c0c6a3657, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 913576271}
+    - targetCorrespondingSourceObject: {fileID: 1854142860761977034, guid: eef644b33b6f7aa41ad7a03c0c6a3657, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 913576274}
   m_SourcePrefab: {fileID: 100100000, guid: eef644b33b6f7aa41ad7a03c0c6a3657, type: 3}
 --- !u!1 &161000428
 GameObject:
@@ -355,6 +378,44 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 387719819}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &387719824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387719817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 387719819}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: board
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 387719819}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &387719827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387719817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 387719819}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: board
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 387719819}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &489053869 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6275358938032774756, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
@@ -390,6 +451,101 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 489053871}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &489053876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489053869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 489053871}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: bishop
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 489053871}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &489053879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489053869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 489053871}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: bishop
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 489053871}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &489053882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489053869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 489053871}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: bishop
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 489053871}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &489053885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489053869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 489053871}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: bishop
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 489053871}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &489053888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489053869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 489053871}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: bishop
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 489053871}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &574907427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -404,6 +560,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4190521333931611540, guid: cf56b21d73efd7043b9f8b1476f133d1, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190521333931611540, guid: cf56b21d73efd7043b9f8b1476f133d1, type: 3}
+      propertyPath: StatusFilter
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6524669020495391688, guid: cf56b21d73efd7043b9f8b1476f133d1, type: 3}
@@ -454,6 +614,21 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2946036273941198498, guid: cf56b21d73efd7043b9f8b1476f133d1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 884325760}
+    - targetCorrespondingSourceObject: {fileID: 2946036273941198498, guid: cf56b21d73efd7043b9f8b1476f133d1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 884325763}
+    - targetCorrespondingSourceObject: {fileID: 2946036273941198498, guid: cf56b21d73efd7043b9f8b1476f133d1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 884325766}
+    - targetCorrespondingSourceObject: {fileID: 2946036273941198498, guid: cf56b21d73efd7043b9f8b1476f133d1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 884325769}
+    - targetCorrespondingSourceObject: {fileID: 2946036273941198498, guid: cf56b21d73efd7043b9f8b1476f133d1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 884325772}
+    - targetCorrespondingSourceObject: {fileID: 2946036273941198498, guid: cf56b21d73efd7043b9f8b1476f133d1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 884325775}
   m_SourcePrefab: {fileID: 100100000, guid: cf56b21d73efd7043b9f8b1476f133d1, type: 3}
 --- !u!1001 &579317789
 PrefabInstance:
@@ -509,6 +684,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5782956348380330383, guid: dd8165c76d658044692ab17949e624d0, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5782956348380330383, guid: dd8165c76d658044692ab17949e624d0, type: 3}
+      propertyPath: StatusFilter
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -519,6 +698,21 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 420137578595358566, guid: dd8165c76d658044692ab17949e624d0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1401236202}
+    - targetCorrespondingSourceObject: {fileID: 420137578595358566, guid: dd8165c76d658044692ab17949e624d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1401236205}
+    - targetCorrespondingSourceObject: {fileID: 420137578595358566, guid: dd8165c76d658044692ab17949e624d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1401236208}
+    - targetCorrespondingSourceObject: {fileID: 420137578595358566, guid: dd8165c76d658044692ab17949e624d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1401236211}
+    - targetCorrespondingSourceObject: {fileID: 420137578595358566, guid: dd8165c76d658044692ab17949e624d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1401236214}
+    - targetCorrespondingSourceObject: {fileID: 420137578595358566, guid: dd8165c76d658044692ab17949e624d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1401236217}
   m_SourcePrefab: {fileID: 100100000, guid: dd8165c76d658044692ab17949e624d0, type: 3}
 --- !u!1001 &594297685
 PrefabInstance:
@@ -594,6 +788,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4953970205754935517, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953970205754935517, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
+      propertyPath: StatusFilter
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5112384543590518162, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
@@ -626,6 +824,21 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1900645641586838394, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1421813240}
+    - targetCorrespondingSourceObject: {fileID: 1900645641586838394, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1421813245}
+    - targetCorrespondingSourceObject: {fileID: 1900645641586838394, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1421813248}
+    - targetCorrespondingSourceObject: {fileID: 1900645641586838394, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1421813251}
+    - targetCorrespondingSourceObject: {fileID: 1900645641586838394, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1421813254}
+    - targetCorrespondingSourceObject: {fileID: 1900645641586838394, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1421813257}
   m_SourcePrefab: {fileID: 100100000, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
 --- !u!1001 &666857891
 PrefabInstance:
@@ -637,6 +850,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 850016617150615523, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 850016617150615523, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
+      propertyPath: StatusFilter
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3339949022172476642, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
@@ -691,6 +908,21 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6275358938032774756, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
       insertIndex: -1
       addedObject: {fileID: 489053873}
+    - targetCorrespondingSourceObject: {fileID: 6275358938032774756, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 489053876}
+    - targetCorrespondingSourceObject: {fileID: 6275358938032774756, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 489053879}
+    - targetCorrespondingSourceObject: {fileID: 6275358938032774756, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 489053882}
+    - targetCorrespondingSourceObject: {fileID: 6275358938032774756, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 489053885}
+    - targetCorrespondingSourceObject: {fileID: 6275358938032774756, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 489053888}
   m_SourcePrefab: {fileID: 100100000, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
 --- !u!1 &884325756 stripped
 GameObject:
@@ -727,6 +959,101 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 884325758}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &884325763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884325756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 884325758}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: knight
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 884325758}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &884325766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884325756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 884325758}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: knight
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 884325758}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &884325769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884325756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 884325758}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: knight
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 884325758}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &884325772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884325756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 884325758}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: knight
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 884325758}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &884325775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884325756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 884325758}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: knight
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 884325758}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &913576255 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1854142860761977034, guid: eef644b33b6f7aa41ad7a03c0c6a3657, type: 3}
@@ -744,6 +1071,101 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &913576259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913576255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 913576257}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: pawn
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 913576257}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &913576262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913576255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 913576257}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: pawn
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 913576257}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &913576265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913576255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 913576257}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: pawn
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 913576257}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &913576268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913576255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 913576257}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: pawn
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 913576257}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &913576271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913576255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 913576257}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: pawn
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 913576257}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &913576274
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -814,8 +1236,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6228926629241543085, guid: b9d632b5517938f4ba88290a08ef3562, type: 3}
+      propertyPath: mPreview
+      value: 
+      objectReference: {fileID: 387719827}
     - target: {fileID: 7440086882056136153, guid: b9d632b5517938f4ba88290a08ef3562, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440086882056136153, guid: b9d632b5517938f4ba88290a08ef3562, type: 3}
+      propertyPath: StatusFilter
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -826,6 +1256,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 143425901636247926, guid: b9d632b5517938f4ba88290a08ef3562, type: 3}
       insertIndex: -1
       addedObject: {fileID: 387719821}
+    - targetCorrespondingSourceObject: {fileID: 143425901636247926, guid: b9d632b5517938f4ba88290a08ef3562, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 387719824}
+    - targetCorrespondingSourceObject: {fileID: 143425901636247926, guid: b9d632b5517938f4ba88290a08ef3562, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 387719827}
   m_SourcePrefab: {fileID: 100100000, guid: b9d632b5517938f4ba88290a08ef3562, type: 3}
 --- !u!1 &1401236198 stripped
 GameObject:
@@ -844,6 +1280,101 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1401236202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401236198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1401236200}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: queen
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 1401236200}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1401236205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401236198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1401236200}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: queen
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 1401236200}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1401236208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401236198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1401236200}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: queen
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 1401236200}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1401236211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401236198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1401236200}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: queen
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 1401236200}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1401236214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401236198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1401236200}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: queen
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 1401236200}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1401236217
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -935,6 +1466,101 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1421813238}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &1421813245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421813236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1421813238}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: knight
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 1421813238}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1421813248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421813236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1421813238}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: knight
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 1421813238}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1421813251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421813236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1421813238}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: knight
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 1421813238}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1421813254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421813236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1421813238}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: knight
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 1421813238}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1421813257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421813236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1421813238}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: knight
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 1421813238}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1627138740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -987,8 +1613,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5354400931583633491, guid: 3b3f670e7bc3ae44bb0de2b4c11a8323, type: 3}
+      propertyPath: mPreview
+      value: 
+      objectReference: {fileID: 2038129539}
     - target: {fileID: 6582170675732586239, guid: 3b3f670e7bc3ae44bb0de2b4c11a8323, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582170675732586239, guid: 3b3f670e7bc3ae44bb0de2b4c11a8323, type: 3}
+      propertyPath: StatusFilter
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -999,6 +1633,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 925060956391535127, guid: 3b3f670e7bc3ae44bb0de2b4c11a8323, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2038129530}
+    - targetCorrespondingSourceObject: {fileID: 925060956391535127, guid: 3b3f670e7bc3ae44bb0de2b4c11a8323, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2038129533}
+    - targetCorrespondingSourceObject: {fileID: 925060956391535127, guid: 3b3f670e7bc3ae44bb0de2b4c11a8323, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2038129536}
+    - targetCorrespondingSourceObject: {fileID: 925060956391535127, guid: 3b3f670e7bc3ae44bb0de2b4c11a8323, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2038129539}
   m_SourcePrefab: {fileID: 100100000, guid: 3b3f670e7bc3ae44bb0de2b4c11a8323, type: 3}
 --- !u!1 &2038129526 stripped
 GameObject:
@@ -1017,6 +1660,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &2038129530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038129526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2038129528}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: rook
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 2038129528}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &2038129533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038129526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2038129528}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: rook
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 2038129528}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &2038129536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038129526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2038129528}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: rook
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 2038129528}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &2038129539
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
