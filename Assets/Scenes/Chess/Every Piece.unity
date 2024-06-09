@@ -546,6 +546,25 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 489053871}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &489053891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489053869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 489053871}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: bishop
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 489053871}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &574907427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -629,6 +648,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2946036273941198498, guid: cf56b21d73efd7043b9f8b1476f133d1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 884325775}
+    - targetCorrespondingSourceObject: {fileID: 2946036273941198498, guid: cf56b21d73efd7043b9f8b1476f133d1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 884325778}
+    - targetCorrespondingSourceObject: {fileID: 2946036273941198498, guid: cf56b21d73efd7043b9f8b1476f133d1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 884325781}
   m_SourcePrefab: {fileID: 100100000, guid: cf56b21d73efd7043b9f8b1476f133d1, type: 3}
 --- !u!1001 &579317789
 PrefabInstance:
@@ -713,6 +738,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 420137578595358566, guid: dd8165c76d658044692ab17949e624d0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1401236217}
+    - targetCorrespondingSourceObject: {fileID: 420137578595358566, guid: dd8165c76d658044692ab17949e624d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1401236220}
+    - targetCorrespondingSourceObject: {fileID: 420137578595358566, guid: dd8165c76d658044692ab17949e624d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1401236223}
   m_SourcePrefab: {fileID: 100100000, guid: dd8165c76d658044692ab17949e624d0, type: 3}
 --- !u!1001 &594297685
 PrefabInstance:
@@ -809,6 +840,10 @@ PrefabInstance:
     - target: {fileID: 8053078579599042708, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
       propertyPath: mPreview
       value: 
+      objectReference: {fileID: 1421813263}
+    - target: {fileID: 8053078579599042708, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
+      propertyPath: mTrackableName
+      value: king
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6348382281353242067, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
@@ -818,12 +853,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1900645641586838394, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1421813242}
-    - targetCorrespondingSourceObject: {fileID: 1900645641586838394, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1421813241}
-    - targetCorrespondingSourceObject: {fileID: 1900645641586838394, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1421813240}
     - targetCorrespondingSourceObject: {fileID: 1900645641586838394, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1421813245}
@@ -839,6 +868,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1900645641586838394, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1421813257}
+    - targetCorrespondingSourceObject: {fileID: 1900645641586838394, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1421813260}
+    - targetCorrespondingSourceObject: {fileID: 1900645641586838394, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1421813263}
   m_SourcePrefab: {fileID: 100100000, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
 --- !u!1001 &666857891
 PrefabInstance:
@@ -900,6 +935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AR_Bishop
       objectReference: {fileID: 0}
+    - target: {fileID: 8761947875077580610, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
+      propertyPath: mPreview
+      value: 
+      objectReference: {fileID: 489053891}
     m_RemovedComponents:
     - {fileID: 3052585057108050193, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
     m_RemovedGameObjects: []
@@ -923,6 +962,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6275358938032774756, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
       insertIndex: -1
       addedObject: {fileID: 489053888}
+    - targetCorrespondingSourceObject: {fileID: 6275358938032774756, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 489053891}
   m_SourcePrefab: {fileID: 100100000, guid: e6187602288ff5241a73fdd0e48d3526, type: 3}
 --- !u!1 &884325756 stripped
 GameObject:
@@ -1036,6 +1078,44 @@ MonoBehaviour:
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
 --- !u!114 &884325775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884325756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 884325758}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: knight
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 884325758}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &884325778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884325756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 884325758}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: knight
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 884325758}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &884325781
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1393,6 +1473,44 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1401236200}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &1401236220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401236198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1401236200}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: queen
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 1401236200}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1401236223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401236198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1401236200}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: queen
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 1401236200}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1421813236 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1900645641586838394, guid: fb112773a96e4904da3d70d53ad23511, type: 3}
@@ -1409,44 +1527,6 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1421813240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1421813236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1421813238}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: knight
-  mDatasetName: Vuforia/Chess.xml
-  mCastedBehaviour: {fileID: 1421813238}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1421813241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1421813236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1421813238}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: knight
-  mDatasetName: Vuforia/Chess.xml
-  mCastedBehaviour: {fileID: 1421813238}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1421813242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1461,7 +1541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1421813238}
   mHiddenRoot: {fileID: 0}
-  mTargetName: knight
+  mTargetName: king
   mDatasetName: Vuforia/Chess.xml
   mCastedBehaviour: {fileID: 1421813238}
   mMeshFilter: {fileID: 0}
@@ -1480,7 +1560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1421813238}
   mHiddenRoot: {fileID: 0}
-  mTargetName: knight
+  mTargetName: king
   mDatasetName: Vuforia/Chess.xml
   mCastedBehaviour: {fileID: 1421813238}
   mMeshFilter: {fileID: 0}
@@ -1499,7 +1579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1421813238}
   mHiddenRoot: {fileID: 0}
-  mTargetName: knight
+  mTargetName: king
   mDatasetName: Vuforia/Chess.xml
   mCastedBehaviour: {fileID: 1421813238}
   mMeshFilter: {fileID: 0}
@@ -1518,7 +1598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1421813238}
   mHiddenRoot: {fileID: 0}
-  mTargetName: knight
+  mTargetName: king
   mDatasetName: Vuforia/Chess.xml
   mCastedBehaviour: {fileID: 1421813238}
   mMeshFilter: {fileID: 0}
@@ -1537,7 +1617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1421813238}
   mHiddenRoot: {fileID: 0}
-  mTargetName: knight
+  mTargetName: king
   mDatasetName: Vuforia/Chess.xml
   mCastedBehaviour: {fileID: 1421813238}
   mMeshFilter: {fileID: 0}
@@ -1556,7 +1636,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1421813238}
   mHiddenRoot: {fileID: 0}
-  mTargetName: knight
+  mTargetName: king
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 1421813238}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1421813260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421813236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1421813238}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: king
+  mDatasetName: Vuforia/Chess.xml
+  mCastedBehaviour: {fileID: 1421813238}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1421813263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421813236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1421813238}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: king
   mDatasetName: Vuforia/Chess.xml
   mCastedBehaviour: {fileID: 1421813238}
   mMeshFilter: {fileID: 0}
